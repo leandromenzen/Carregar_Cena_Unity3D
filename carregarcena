@@ -6,6 +6,6 @@ public class carregarcena : MonoBehaviour
 {
 
 	void OnTriggerEnter(Collider other) {
-        SceneManager.LoadScene ("nomedacena");
+        SceneManager.LoadScene ("nomedacena"); // nome da cena que quer carregar
     }
 }
